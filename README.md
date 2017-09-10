@@ -8,7 +8,11 @@
 ## Setup
 
 ```
+# Clone
+$ git clone --branch rpl-attacks https://github.com/giatuyentiensinh/StatisticLatency.git
+# Build
 $ mvn clean package
+# Run
 $ cd target
 $ java -jar MeansureRPLAttack-1.jar <data_set.csv>
 ```
